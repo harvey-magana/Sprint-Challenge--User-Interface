@@ -57,7 +57,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -268,6 +268,7 @@ footer nav a {
 
     .top-content .text-container {
         margin: 1.5rem 0;
+        padding: 0 2rem;
         width: 100%;
         box-sizing: border-box;
     }
@@ -310,6 +311,7 @@ footer nav a {
 
     .bottom-content .text-container {
         margin: 1.5rem 0;
+        padding: 0 2rem;
         width: 100%;
         box-sizing: border-box;
     }
@@ -326,6 +328,7 @@ footer nav a {
         width: 100%;
         display: flex;
         font-size: 2rem;
+        font-weight: 300;
     }
 
     footer nav a {
