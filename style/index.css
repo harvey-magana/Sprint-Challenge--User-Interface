@@ -28,6 +28,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+html {
+    font-size: 62.5%;
+}
 body {
 	line-height: 1;
 }
@@ -67,8 +71,7 @@ p {
 }
 
 .container {
-    width: 800px;
-    margin: 0 auto;
+    margin: 0 17rem;
 }
 
 .top-content {
@@ -79,6 +82,10 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-content img {
+    width: 100%;
+    margin: 0 0 5rem;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -126,6 +133,30 @@ p {
     padding-right: 0;
 }
 
+header {
+    background-color: #fff;
+    margin: 5rem 0;
+}
+
+nav {
+    display: flex;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    align-items: flex-end;
+}
+
+ul li {
+    margin: 0 5.5rem;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
 footer {
     width: 100%;
     background: black;
@@ -143,4 +174,20 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Smaller viewports */
+
+/* mobile */
+@media (max-width: 500px) {
+    .container {
+        width: 100%;
+        margin: 0px auto;
+        background-color: purple;
+    }
+
+    header {
+        width: 100%;
+        background-color: #fff;
+    }
 }
