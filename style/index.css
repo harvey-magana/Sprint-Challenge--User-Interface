@@ -61,7 +61,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    /*font-size: 18px;*/
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
@@ -100,6 +100,15 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+}
+
+.middle-content article {
+    padding: 0 2%;
+    margin: 0.7rem 0.7rem;
+}
+
+.middle-content article p {
+    font-size: 2rem;
 }
 
 .middle-content .boxes {
@@ -180,7 +189,7 @@ ul {
 }
 
 ul li {
-    margin: 0 4.5rem;
+    margin: 0 20%;
 }
 
 ul a {
@@ -214,11 +223,112 @@ footer nav a {
     .container {
         width: 100%;
         margin: 0px auto;
-        background-color: purple;
     }
 
     header {
         width: 100%;
         background-color: #fff;
+        margin: 5rem 0 0;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav img {
+        width: 40%;
+        height: auto;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2.5rem;
+    }
+
+    ul li {
+        margin: 0.5rem 0;
+    }
+
+    .top-content {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0.5rem;
+        box-sizing: border-box;
+    }
+
+    .top-content img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .top-content .text-container {
+        margin: 1.5rem 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .top-content .text-container h2 {
+        font-size: 2rem;
+    }
+
+    .top-content .text-container p {
+        font-size: 1.5rem;
+    }
+
+    .middle-content {
+        margin: 1.5rem 0;
+    }
+
+    .middle-content h2 {
+        font-size: 2rem;
+    }
+
+    .middle-content .boxes .box{
+        width: 20rem;
+        height: 20rem;
+        margin: 1rem 9rem;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .middle-content {
+        border-bottom: transparent;
+    }
+
+    .bottom-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom-content .text-container {
+        margin: 1.5rem 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .bottom-content .text-container h2 {
+        font-size: 1.5rem;
+    }
+
+    .bottom-content .text-container p {
+        font-size: 1.5rem;
+    }
+
+    footer nav {
+        width: 100%;
+        display: flex;
+        font-size: 2rem;
+    }
+
+    footer nav a {
+        margin: 0.5rem;
     }
 }
