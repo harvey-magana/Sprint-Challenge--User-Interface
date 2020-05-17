@@ -208,6 +208,30 @@ ul a {
     background: dodgerblue;
 }
 
+/* animation style rules */
+.box{
+    padding:30px;
+    margin:2%;
+    background:white;
+    width:30%;
+    border:1px solid #d6d6d6;
+    box-shadow:0 2px 3px 0px rgba(0,0,0,0.25);
+    border-radius:3px;
+    transition:.2s all; 
+  }
+  .boxes:hover .box{
+    filter:blur(3px);
+    opacity:.5;
+    transform: scale(.98);
+    box-shadow:none;
+  }
+  .boxes:hover .box:hover{
+    transform:scale(1);
+    filter:blur(0px);
+    opacity:1;
+    box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+  }
+
 form {
     width: 90%;
     margin: 1rem;
