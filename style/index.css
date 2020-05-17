@@ -71,7 +71,8 @@ p {
 }
 
 .container {
-    margin: 0 30rem;
+    margin: 0 auto;
+    padding: 0 10rem;
 }
 
 .top-content {
@@ -333,5 +334,36 @@ footer nav a {
 
     footer nav a {
         margin: 0.5rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 100%;
+        margin: 0px auto;
+        padding: 0 3rem;
+    }
+
+    .top-content {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
+    }
+
+    .top-content .text-container {
+        width: 100%;
+        padding: 0 1%;
+        padding-bottom: 20px;
+    }
+
+    .middle-content .boxes .box {
+        width: 22rem;
+        height: 22rem;
+        margin: 1rem 2rem;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
