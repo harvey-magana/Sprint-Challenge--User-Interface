@@ -217,6 +217,32 @@ footer nav a {
     text-decoration: none;
 }
 
+form {
+    width: 70%;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #ddd;
+}
+
+label, input {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    width: -webkit-fill-available;
+}
+
+label {
+    padding-right: 0.3rem;
+}
+.site-form textarea {
+    margin: 0.5rem;
+}
+
+.site-form-submit input {
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem;
+}
+
 /* Smaller viewports */
 
 /* mobile */
