@@ -453,7 +453,7 @@ footer nav a {
     }
 
     .bottom-content .text-container:last-child {
-        padding: 0 15rem;
-        margin: 1.5rem;
+        /* padding: 0 15rem;*/
+        /* margin: 1.5rem; */
     }
 }
