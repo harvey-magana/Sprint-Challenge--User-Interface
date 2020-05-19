@@ -413,6 +413,10 @@ footer nav a {
         padding: 0 3rem;
     }
 
+    nav ul li {
+        margin: 0px 14%;
+    }
+    
     .top-content {
         display: flex;
         flex-direction: column;
