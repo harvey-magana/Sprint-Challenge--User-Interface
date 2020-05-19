@@ -342,6 +342,10 @@ footer nav a {
         font-size: 2rem;
     }
 
+    .top-content .text-container img {
+        display: none;
+    }
+
     .top-content .text-container p {
         font-size: 1.5rem;
     }
